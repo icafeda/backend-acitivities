@@ -1,0 +1,22 @@
+{
+  "version": 2,
+  "dgSpecHash": "u5rQ59rx2tw=",
+  "success": false,
+  "projectFilePath": "P:\\practice_on_lesson\\fullstack-activities\\backend-activities\\Persistence\\Persistence.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\thang\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\11.0.0-preview.6\\npgsql.entityframeworkcore.postgresql.11.0.0-preview.6.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1202",
+      "level": "Error",
+      "message": "Package Npgsql.EntityFrameworkCore.PostgreSQL 11.0.0-preview.6 is not compatible with net10.0 (.NETCoreApp,Version=v10.0). Package Npgsql.EntityFrameworkCore.PostgreSQL 11.0.0-preview.6 supports: net11.0 (.NETCoreApp,Version=v11.0)",
+      "projectPath": "P:\\practice_on_lesson\\fullstack-activities\\backend-activities\\Persistence\\Persistence.csproj",
+      "filePath": "P:\\practice_on_lesson\\fullstack-activities\\backend-activities\\Persistence\\Persistence.csproj",
+      "libraryId": "Npgsql.EntityFrameworkCore.PostgreSQL",
+      "targetGraphs": [
+        "net10.0"
+      ]
+    }
+  ]
+}
