@@ -1,0 +1,16 @@
+P:\practice_on_lesson\fullstack-activities\backend-activities\Persistence\bin\Debug\net10.0\Persistence.deps.json
+P:\practice_on_lesson\fullstack-activities\backend-activities\Persistence\bin\Debug\net10.0\Persistence.dll
+P:\practice_on_lesson\fullstack-activities\backend-activities\Persistence\bin\Debug\net10.0\Persistence.pdb
+P:\practice_on_lesson\fullstack-activities\backend-activities\Persistence\bin\Debug\net10.0\Domain.dll
+P:\practice_on_lesson\fullstack-activities\backend-activities\Persistence\bin\Debug\net10.0\Domain.pdb
+P:\practice_on_lesson\fullstack-activities\backend-activities\Persistence\obj\Debug\net10.0\Persistence.csproj.AssemblyReference.cache
+P:\practice_on_lesson\fullstack-activities\backend-activities\Persistence\obj\Debug\net10.0\Persistence.GeneratedMSBuildEditorConfig.editorconfig
+P:\practice_on_lesson\fullstack-activities\backend-activities\Persistence\obj\Debug\net10.0\Persistence.AssemblyInfoInputs.cache
+P:\practice_on_lesson\fullstack-activities\backend-activities\Persistence\obj\Debug\net10.0\Persistence.AssemblyInfo.cs
+P:\practice_on_lesson\fullstack-activities\backend-activities\Persistence\obj\Debug\net10.0\Persistence.csproj.CoreCompileInputs.cache
+P:\practice_on_lesson\fullstack-activities\backend-activities\Persistence\obj\Debug\net10.0\Persistence.sourcelink.json
+P:\practice_on_lesson\fullstack-activities\backend-activities\Persistence\obj\Debug\net10.0\Persiste.61C28332.Up2Date
+P:\practice_on_lesson\fullstack-activities\backend-activities\Persistence\obj\Debug\net10.0\Persistence.dll
+P:\practice_on_lesson\fullstack-activities\backend-activities\Persistence\obj\Debug\net10.0\refint\Persistence.dll
+P:\practice_on_lesson\fullstack-activities\backend-activities\Persistence\obj\Debug\net10.0\Persistence.pdb
+P:\practice_on_lesson\fullstack-activities\backend-activities\Persistence\obj\Debug\net10.0\ref\Persistence.dll
