@@ -6,11 +6,11 @@ var builder = WebApplication.CreateBuilder(args);
 
 // 2. Xóa tất cả provider cũ và chỉ thêm lại JSON file với 
 
-builder.Configuration
-    .AddJsonFile("appsettings.json", optional: true, reloadOnChange: false)
-    .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true, reloadOnChange: false)
-    .AddEnvironmentVariables();
-    
+// builder.Configuration
+//     .AddJsonFile("appsettings.json", optional: true, reloadOnChange: false)
+//     .AddJsonFile($"appsettings.{builder.Environment.EnvironmentName}.json", optional: true, reloadOnChange: false)
+//     .AddEnvironmentVariables();
+
 builder.Configuration.GetConnectionString("DefaultConnection");
 
 // 3. Thêm các Controllers
