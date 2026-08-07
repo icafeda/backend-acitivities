@@ -2,9 +2,7 @@ P:\practice_on_lesson\fullstack-activities\backend-activities\Application\bin\De
 P:\practice_on_lesson\fullstack-activities\backend-activities\Application\bin\Debug\net10.0\Application.dll
 P:\practice_on_lesson\fullstack-activities\backend-activities\Application\bin\Debug\net10.0\Application.pdb
 P:\practice_on_lesson\fullstack-activities\backend-activities\Application\bin\Debug\net10.0\Domain.dll
-P:\practice_on_lesson\fullstack-activities\backend-activities\Application\bin\Debug\net10.0\Persistence.dll
 P:\practice_on_lesson\fullstack-activities\backend-activities\Application\bin\Debug\net10.0\Domain.pdb
-P:\practice_on_lesson\fullstack-activities\backend-activities\Application\bin\Debug\net10.0\Persistence.pdb
 P:\practice_on_lesson\fullstack-activities\backend-activities\Application\obj\Debug\net10.0\Application.csproj.AssemblyReference.cache
 P:\practice_on_lesson\fullstack-activities\backend-activities\Application\obj\Debug\net10.0\Application.GeneratedMSBuildEditorConfig.editorconfig
 P:\practice_on_lesson\fullstack-activities\backend-activities\Application\obj\Debug\net10.0\Application.AssemblyInfoInputs.cache

@@ -9,8 +9,10 @@
       "API/1.0.0": {
         "dependencies": {
           "Application": "1.0.0",
+          "Domain": "1.0.0",
           "Microsoft.AspNetCore.OpenApi": "10.0.10",
-          "Microsoft.EntityFrameworkCore.Design": "10.0.10"
+          "Microsoft.EntityFrameworkCore.Design": "10.0.10",
+          "Persistence": "1.0.0"
         },
         "runtime": {
           "API.dll": {}
@@ -498,8 +500,7 @@
       },
       "Application/1.0.0": {
         "dependencies": {
-          "Domain": "1.0.0",
-          "Persistence": "1.0.0"
+          "Domain": "1.0.0"
         },
         "runtime": {
           "Application.dll": {
@@ -518,6 +519,7 @@
       },
       "Persistence/1.0.0": {
         "dependencies": {
+          "Application": "1.0.0",
           "Domain": "1.0.0",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "10.0.3"
         },
