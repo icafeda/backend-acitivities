@@ -2297,9 +2297,11 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "Application >= 1.0.0",
+      "Domain >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 10.0.10",
       "Microsoft.EntityFrameworkCore.Design >= 10.0.10",
-      "Microsoft.EntityFrameworkCore.Tools >= 10.0.10"
+      "Microsoft.EntityFrameworkCore.Tools >= 10.0.10",
+      "Persistence >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -2341,6 +2343,12 @@
           "projectReferences": {
             "P:\\practice_on_lesson\\fullstack-activities\\backend-activities\\Application\\Application.csproj": {
               "projectPath": "P:\\practice_on_lesson\\fullstack-activities\\backend-activities\\Application\\Application.csproj"
+            },
+            "P:\\practice_on_lesson\\fullstack-activities\\backend-activities\\Domain\\Domain.csproj": {
+              "projectPath": "P:\\practice_on_lesson\\fullstack-activities\\backend-activities\\Domain\\Domain.csproj"
+            },
+            "P:\\practice_on_lesson\\fullstack-activities\\backend-activities\\Persistence\\Persistence.csproj": {
+              "projectPath": "P:\\practice_on_lesson\\fullstack-activities\\backend-activities\\Persistence\\Persistence.csproj"
             }
           }
         }

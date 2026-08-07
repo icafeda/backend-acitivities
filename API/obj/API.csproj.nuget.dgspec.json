@@ -38,6 +38,12 @@
             "projectReferences": {
               "P:\\practice_on_lesson\\fullstack-activities\\backend-activities\\Application\\Application.csproj": {
                 "projectPath": "P:\\practice_on_lesson\\fullstack-activities\\backend-activities\\Application\\Application.csproj"
+              },
+              "P:\\practice_on_lesson\\fullstack-activities\\backend-activities\\Domain\\Domain.csproj": {
+                "projectPath": "P:\\practice_on_lesson\\fullstack-activities\\backend-activities\\Domain\\Domain.csproj"
+              },
+              "P:\\practice_on_lesson\\fullstack-activities\\backend-activities\\Persistence\\Persistence.csproj": {
+                "projectPath": "P:\\practice_on_lesson\\fullstack-activities\\backend-activities\\Persistence\\Persistence.csproj"
               }
             }
           }

@@ -43,11 +43,9 @@ builder.Services.AddDbContext<AppDbContext>(options =>
 // 6. Tạo ứng dụng (build app)
 var app = builder.Build();
 
-// 7. Các middle-ware & routing - đặt sau builder.Build()
-app.UseCors("CorsPolicy");
-app.MapControllers();
 
-// 8. Run Migration & Seed
+
+// 7. Run Migration & Seed
 using (var scope = app.Services.CreateScope())
 {
     var services = scope.ServiceProvider;
@@ -64,26 +62,9 @@ using (var scope = app.Services.CreateScope())
     }
 }
 
+// 8. Các middle-ware & routing - đặt sau builder.Build()
+app.UseCors("CorsPolicy");
+app.MapControllers();
+
 app.Run();
 
-// 9. Local function
-string ParseConnectionString(string? connectionUri)
-{
-    if (string.IsNullOrEmpty(connectionUri))
-        return string.Empty;
-
-    if (connectionUri.StartsWith("postgres://") || connectionUri.StartsWith("postgresql://"))
-    {
-        var uri = new Uri(connectionUri);
-        var userInfo = uri.UserInfo.Split(':');
-        var username = userInfo[0];
-        var password = userInfo.Length > 1 ? userInfo[1] : "";
-        var host = uri.Host;
-        var port = uri.Port > 0 ? uri.Port : 5432;
-        var database = uri.AbsolutePath.TrimStart('/');
-
-        return $"Host={host};Port={port};Database={database};Username={username};Password={password};SSL Mode=Require;Trust Server Certificate=true;";
-    }
-
-    return connectionUri;
-}
