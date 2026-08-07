@@ -33,15 +33,11 @@ builder.Services.AddCors(opt =>
 });
 
 // 5. Lấy Connection String và chuyển đổi định dạng Render nếu cần
-var rawConnectionString = builder.Configuration.GetConnectionString("DefaultConnection")
-                          ?? Environment.GetEnvironmentVariable("DATABASE_URL");
-
-string connectionString = ParseConnectionString(rawConnectionString);
-
-builder.Services.AddDbContext<AppDbContext>(option =>
+builder.Services.AddDbContext<AppDbContext>(options =>
 {
-    option.UseNpgsql(connectionString);
+    options.UseNpgsql(builder.Configuration.GetConnectionString("DefaultConnection"));
 });
+
 
 
 // 6. Tạo ứng dụng (build app)
