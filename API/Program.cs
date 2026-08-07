@@ -1,13 +1,8 @@
 using Microsoft.EntityFrameworkCore;
 using Persistence;
 
-// 1. Tắt hoàn toàn việc load/watch file thay đổi từ level cao nhất
-var options = new WebApplicationOptions
-{
-    Args = args
-};
 
-var builder = WebApplication.CreateBuilder(options);
+var builder = WebApplication.CreateBuilder(args);
 
 // 2. Xóa tất cả provider cũ và chỉ thêm lại JSON file với 
 
