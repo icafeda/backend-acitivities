@@ -127,3 +127,9 @@ P:\practice_on_lesson\fullstack-activities\backend-activities\API\obj\Debug\net1
 P:\practice_on_lesson\fullstack-activities\backend-activities\API\obj\Debug\net10.0\API.pdb
 P:\practice_on_lesson\fullstack-activities\backend-activities\API\obj\Debug\net10.0\API.genruntimeconfig.cache
 P:\practice_on_lesson\fullstack-activities\backend-activities\API\obj\Debug\net10.0\ref\API.dll
+P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net10.0\MediatR.dll
+P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net10.0\MediatR.Contracts.dll
+P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net10.0\Microsoft.IdentityModel.Abstractions.dll
+P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
+P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
+P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll

@@ -14,5 +14,3 @@ P:\practice_on_lesson\fullstack-activities\backend-activities\Persistence\obj\De
 P:\practice_on_lesson\fullstack-activities\backend-activities\Persistence\obj\Debug\net10.0\refint\Persistence.dll
 P:\practice_on_lesson\fullstack-activities\backend-activities\Persistence\obj\Debug\net10.0\Persistence.pdb
 P:\practice_on_lesson\fullstack-activities\backend-activities\Persistence\obj\Debug\net10.0\ref\Persistence.dll
-P:\practice_on_lesson\fullstack-activities\backend-activities\Persistence\bin\Debug\net10.0\Application.dll
-P:\practice_on_lesson\fullstack-activities\backend-activities\Persistence\bin\Debug\net10.0\Application.pdb
