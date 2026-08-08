@@ -133,3 +133,5 @@ P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net1
 P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net10.0\Microsoft.IdentityModel.JsonWebTokens.dll
 P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
 P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
+P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net10.0\AutoMapper.dll
+P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net10.0\AutoMapper.Extensions.Microsoft.DependencyInjection.dll
