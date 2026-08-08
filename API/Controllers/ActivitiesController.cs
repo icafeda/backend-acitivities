@@ -35,8 +35,8 @@ public class ActivitiesController : BaseApiController
     [HttpPut]
     public async Task<ActionResult> EditActivity(Activity activity)
     {
-        await Mediator.Send(new CreateActivity.Command { Activity = activity });
-        
+        await Mediator.Send(new EditActivity.Command { Activity = activity });
+
         return NoContent();
     }
 
