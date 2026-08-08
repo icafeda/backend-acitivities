@@ -1,9 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "+z3S1Jhq+Yo=",
+  "dgSpecHash": "D7j8hWJZh9o=",
   "success": true,
   "projectFilePath": "P:\\practice_on_lesson\\fullstack-activities\\backend-activities\\Application\\Application.csproj",
   "expectedPackageFiles": [
+    "C:\\Users\\thang\\.nuget\\packages\\automapper\\16.2.0\\automapper.16.2.0.nupkg.sha512",
     "C:\\Users\\thang\\.nuget\\packages\\mediatr\\14.2.0\\mediatr.14.2.0.nupkg.sha512",
     "C:\\Users\\thang\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
     "C:\\Users\\thang\\.nuget\\packages\\microsoft.entityframeworkcore\\10.0.10\\microsoft.entityframeworkcore.10.0.10.nupkg.sha512",
