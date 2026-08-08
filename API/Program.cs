@@ -41,6 +41,9 @@ builder.Services.AddMediatR(x => x.RegisterServicesFromAssemblyContaining<GetAct
 
 builder.Services.AddAutoMapper(typeof(MappingProfiles).Assembly);
 
+
+
+
 // 6. Tạo ứng dụng (build app)
 var app = builder.Build();
 

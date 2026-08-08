@@ -2,15 +2,18 @@
   "version": 4,
   "targets": {
     "net10.0": {
-      "AutoMapper/12.0.1": {
+      "AutoMapper/16.2.0": {
         "type": "package",
+        "dependencies": {
+          "Microsoft.IdentityModel.JsonWebTokens": "8.14.0"
+        },
         "compile": {
-          "lib/netstandard2.1/AutoMapper.dll": {
+          "lib/net10.0/AutoMapper.dll": {
             "related": ".xml"
           }
         },
         "runtime": {
-          "lib/netstandard2.1/AutoMapper.dll": {
+          "lib/net10.0/AutoMapper.dll": {
             "related": ".xml"
           }
         }
@@ -804,7 +807,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v10.0",
         "dependencies": {
-          "AutoMapper": "12.0.1",
+          "AutoMapper": "16.2.0",
           "Domain": "1.0.0",
           "MediatR": "14.2.0",
           "Persistence": "1.0.0"
@@ -844,19 +847,28 @@
     }
   },
   "libraries": {
-    "AutoMapper/12.0.1": {
-      "sha512": "hvV62vl6Hp/WfQ24yzo3Co9+OPl8wH8hApwVtgWpiAynVJkUcs7xvehnSftawL8Pe8FrPffBRM3hwzLQqWDNjA==",
+    "AutoMapper/16.2.0": {
+      "sha512": "PE8HgPc5BZJnAFwjvDTE72gWL6YrYib+V7+vxtLXDYz0CH/fFgbVcwLUC9UHk5ALwspZ6Vbmoo6PHvseIk/0ZA==",
       "type": "package",
-      "path": "automapper/12.0.1",
+      "path": "automapper/16.2.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
+        "LICENSE.md",
         "README.md",
-        "automapper.12.0.1.nupkg.sha512",
+        "automapper.16.2.0.nupkg.sha512",
         "automapper.nuspec",
         "icon.png",
-        "lib/netstandard2.1/AutoMapper.dll",
-        "lib/netstandard2.1/AutoMapper.xml"
+        "lib/net10.0/AutoMapper.dll",
+        "lib/net10.0/AutoMapper.xml",
+        "lib/net471/AutoMapper.dll",
+        "lib/net471/AutoMapper.xml",
+        "lib/net8.0/AutoMapper.dll",
+        "lib/net8.0/AutoMapper.xml",
+        "lib/net9.0/AutoMapper.dll",
+        "lib/net9.0/AutoMapper.xml",
+        "lib/netstandard2.0/AutoMapper.dll",
+        "lib/netstandard2.0/AutoMapper.xml"
       ]
     },
     "AutoMapper.Extensions.Microsoft.DependencyInjection/12.0.1": {
@@ -2579,7 +2591,7 @@
   "projectFileDependencyGroups": {
     "net10.0": [
       "Application >= 1.0.0",
-      "AutoMapper >= 12.0.1",
+      "AutoMapper >= 16.2.0",
       "AutoMapper.Extensions.Microsoft.DependencyInjection >= 12.0.1",
       "Domain >= 1.0.0",
       "Microsoft.AspNetCore.OpenApi >= 10.0.10",
@@ -2656,7 +2668,7 @@
         "dependencies": {
           "AutoMapper": {
             "target": "Package",
-            "version": "[12.0.1, )"
+            "version": "[16.2.0, )"
           },
           "AutoMapper.Extensions.Microsoft.DependencyInjection": {
             "target": "Package",
@@ -3114,10 +3126,10 @@
   },
   "logs": [
     {
-      "code": "NU1903",
+      "code": "NU1608",
       "level": "Warning",
       "warningLevel": 1,
-      "message": "Package 'AutoMapper' 12.0.1 has a known high severity vulnerability, https://github.com/advisories/GHSA-rvv3-g6hj-g44x",
+      "message": "Detected package version outside of dependency constraint: AutoMapper.Extensions.Microsoft.DependencyInjection 12.0.1 requires AutoMapper (= 12.0.1) but version AutoMapper 16.2.0 was resolved.",
       "libraryId": "AutoMapper",
       "targetGraphs": [
         "net10.0"
