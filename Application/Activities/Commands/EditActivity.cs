@@ -1,9 +1,11 @@
 using System;
 using System.Collections.Generic;
-using System.Diagnostics;
 using System.Linq;
 using System.Net;
 using System.Threading.Tasks;
+using MediatR;
+using Persistence;
+using Domain;
 
 namespace Application.Activities.Commands;
 
