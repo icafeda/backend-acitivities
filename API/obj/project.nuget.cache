@@ -1,11 +1,10 @@
 {
   "version": 2,
-  "dgSpecHash": "jbKmHm6I3vE=",
+  "dgSpecHash": "7uhxANxDPF8=",
   "success": true,
   "projectFilePath": "P:\\practice_on_lesson\\fullstack-activities\\backend-activities\\API\\API.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\thang\\.nuget\\packages\\automapper\\16.2.0\\automapper.16.2.0.nupkg.sha512",
-    "C:\\Users\\thang\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",
     "C:\\Users\\thang\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\thang\\.nuget\\packages\\mediatr\\14.2.0\\mediatr.14.2.0.nupkg.sha512",
     "C:\\Users\\thang\\.nuget\\packages\\mediatr.contracts\\2.0.1\\mediatr.contracts.2.0.1.nupkg.sha512",
@@ -43,18 +42,6 @@
     "C:\\Users\\thang\\.nuget\\packages\\system.composition.typedparts\\9.0.0\\system.composition.typedparts.9.0.0.nupkg.sha512"
   ],
   "logs": [
-    {
-      "code": "NU1608",
-      "level": "Warning",
-      "message": "Detected package version outside of dependency constraint: AutoMapper.Extensions.Microsoft.DependencyInjection 12.0.1 requires AutoMapper (= 12.0.1) but version AutoMapper 16.2.0 was resolved.",
-      "projectPath": "P:\\practice_on_lesson\\fullstack-activities\\backend-activities\\API\\API.csproj",
-      "warningLevel": 1,
-      "filePath": "P:\\practice_on_lesson\\fullstack-activities\\backend-activities\\API\\API.csproj",
-      "libraryId": "AutoMapper",
-      "targetGraphs": [
-        "net10.0"
-      ]
-    },
     {
       "code": "NU1903",
       "level": "Warning",
