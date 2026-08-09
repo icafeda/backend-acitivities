@@ -134,3 +134,13 @@ P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net1
 P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net10.0\Microsoft.IdentityModel.Logging.dll
 P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net10.0\Microsoft.IdentityModel.Tokens.dll
 P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net10.0\AutoMapper.dll
+P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net10.0\Serilog.dll
+P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net10.0\Serilog.AspNetCore.dll
+P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net10.0\Serilog.Extensions.Hosting.dll
+P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net10.0\Serilog.Extensions.Logging.dll
+P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net10.0\Serilog.Formatting.Compact.dll
+P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net10.0\Serilog.Settings.Configuration.dll
+P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net10.0\Serilog.Sinks.Console.dll
+P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net10.0\Serilog.Sinks.Debug.dll
+P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net10.0\Serilog.Sinks.File.dll
+P:\practice_on_lesson\fullstack-activities\backend-activities\API\bin\Debug\net10.0\Serilog.Sinks.Seq.dll

@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Microsoft.EntityFrameworkCore;
 using Domain;
+using Domain.Logs;
 
 namespace Persistence;
 
@@ -13,4 +14,5 @@ public class AppDbContext: DbContext
     {
     }
     public DbSet<Activity> Activities { get; set; }
+    public DbSet<Log> Logs { get; set; }
 }
