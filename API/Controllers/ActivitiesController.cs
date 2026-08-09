@@ -4,6 +4,7 @@ using System.Linq;
 using System.Threading.Tasks;
 using Application.Activities.Commands;
 using Application.Activities.Queries;
+using Application.DTOs;
 using Domain;
 using MediatR;
 using Microsoft.AspNetCore.Mvc;
@@ -33,9 +34,9 @@ public class ActivitiesController : BaseApiController
     }
 
     [HttpPut]
-    public async Task<ActionResult> EditActivity(Activity activity)
+    public async Task<ActionResult> EditActivity(string Id,EditActivityDto dto)
     {
-        await Mediator.Send(new EditActivity.Command { Activity = activity });
+        await Mediator.Send(new EditActivity.Command { Activity = dto });
 
         return NoContent();
     }

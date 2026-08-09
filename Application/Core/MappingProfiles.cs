@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using Application.DTOs;
 using AutoMapper;
 using Domain;
 
@@ -11,7 +12,7 @@ public class MappingProfiles : Profile
 {
     public MappingProfiles()
     {
-        CreateMap<Activity, Activity>()
+        CreateMap<EditActivityDto, Activity>()
         .ForMember(x => x.Id, opt => opt.Ignore());
     }
 }
