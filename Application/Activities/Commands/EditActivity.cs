@@ -25,9 +25,12 @@ public class EditActivity
             var activity = await context.Activities.FirstOrDefaultAsync(x => x.Id == request.Activity.Id, cancellationToken) 
             ?? throw new Exception("can not find activity");
 
-            // activity.Title = request.Activity.Title;
+            // Mapping từ request sang entity đã được track
             mapper.Map(request.Activity, activity);
-            
+
+            // Đảm bảo Id không bị đánh dấu là Modified
+            context.Entry(activity).Property(x => x.Id).IsModified = false;
+
             await context.SaveChangesAsync(cancellationToken);
         
         }
