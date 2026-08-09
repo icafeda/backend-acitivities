@@ -30,11 +30,11 @@ public class ActivitiesController : BaseApiController
     [HttpPost]
     public async Task<ActionResult<string>> CreateActivity(Activity activity)
     {
-        return await Mediator.Send(new CreateActivity.Command { Activity = activity});
+        return await Mediator.Send(new CreateActivity.Command { Activity = activity });
     }
 
-    [HttpPut]
-    public async Task<ActionResult> EditActivity(string Id,EditActivityDto dto)
+    [HttpPut("{id}")]
+    public async Task<ActionResult> EditActivity(string id,EditActivityDto dto)
     {
         await Mediator.Send(new EditActivity.Command { Activity = dto });
 
