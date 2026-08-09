@@ -22,14 +22,16 @@ public class EditActivity
     {
         public async Task Handle(Command request, CancellationToken cancellationToken)
         {
-            var activity = await context.Activities.FirstOrDefaultAsync(x => x.Id == request.Activity.Id, cancellationToken) 
-            ?? throw new Exception("can not find activity");
+            var activity = await context.Activities.FindAsync([request.Activity.Id], cancellationToken)
+                ?? throw new Exception("Could not find activity");
 
-            // Mapping từ request sang entity đã được track
+            // // Mapping từ request sang entity đã được track
             mapper.Map(request.Activity, activity);
 
-            // Đảm bảo Id không bị đánh dấu là Modified
+            // // Đảm bảo Id không bị đánh dấu là Modified
             context.Entry(activity).Property(x => x.Id).IsModified = false;
+
+            
 
             await context.SaveChangesAsync(cancellationToken);
         
