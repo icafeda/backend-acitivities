@@ -6,6 +6,7 @@ using Application.Activities.Queries;
 using Application.DTOs;
 using AutoMapper;
 using Domain;
+using FluentValidation;
 using MediatR;
 using Microsoft.Extensions.Logging;
 using Persistence;
@@ -19,12 +20,13 @@ public class CreateActivity
         public required CreateActivityDto ActivityDto { get; set; }
     }
 
-    public class Handler(AppDbContext context, ILogger<CreateActivityDto> logger, IMapper mapper) : IRequestHandler<Command, string>
+    public class Handler(AppDbContext context, ILogger<CreateActivityDto> logger, IMapper mapper, IValidator<Command> validator) : IRequestHandler<Command, string>
     {
         public async Task<string> Handle(Command request, CancellationToken cancellationToken)
         {
             try
             {
+                await validator.ValidateAndThrowAsync(request, cancellationToken);
                 var activity = mapper.Map<Activity>(request.ActivityDto);
 
                 //1. LogInformation - log thông tin bình thường
